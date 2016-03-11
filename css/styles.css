@@ -25,7 +25,7 @@ body {
 }
 
 .jumbotron {
-    background-color: #363636;
+    background: #363636 url(../img/city.jpg) 100% 100% no-repeat;
 }
 
 header {
@@ -76,6 +76,7 @@ header p {
     text-transform: uppercase;
     margin: 0 auto;
     text-align: center;
+    text-shadow: 0 0 3px #000;
 }
 
 .banner-text {
@@ -85,6 +86,7 @@ header p {
     margin: 0 auto;
     width: 625px;
     text-align: center;
+    text-shadow: 0 0 3px #000;
 }
 
 .heading .button {
@@ -136,7 +138,7 @@ header p {
     padding-bottom: 100px;
 }
 
-.col-1-4 img {
+.help img {
     display: block;
     margin: 0 auto;
 }
@@ -152,6 +154,10 @@ header p {
 }
 
 h3 {
+    text-transform: uppercase;
+}
+
+h4 {
     text-transform: uppercase;
 }
 
@@ -173,4 +179,25 @@ h3 {
     font-size: 38px;
     font-weight: 300;
     color: #fff;
+}
+
+.projects {
+    padding-top: 100px;
+    font-size: 14px;
+    line-height: 0.5;
+}
+
+.projects img {
+    width: 160px;
+    height: 90px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 12px;
+    text-align: justify;
 }
