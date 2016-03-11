@@ -1,8 +1,8 @@
 body {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
-
-
+    font-size: 16px;
+    color: #fff;
     background: #39404b url("../img/background.png") repeat;
 }
 
@@ -21,4 +21,12 @@ header img {
     -webkit-box-shadow: 0 10px 5px -5px #333;
        -moz-box-shadow: 0 10px 5px -5px #333;
             box-shadow: 0 15px 15px -5px #333;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.login {
+    margin: 0 auto;
 }
