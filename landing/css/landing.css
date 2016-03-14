@@ -74,11 +74,8 @@ a, a:hover {
     text-decoration: underline;
 }
 
-footer {
-    padding-top: 100px;
-    text-align: center;
-}
-
+/* Icons in field that .has-feedback-left
+-------------------------------------------------- */
 .fa.form-control-feedback {
     line-height: 34px; /* @input-height-base; */
 }
@@ -106,4 +103,27 @@ footer {
 }
 .has-feedback-left input.input-lg {
     padding-left: 46px;  @input-height-large;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    text-align: center;
 }
