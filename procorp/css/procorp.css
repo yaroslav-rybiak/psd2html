@@ -4,10 +4,12 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -24,17 +26,29 @@ body {
     color: #b7b7b7;
     background: #39404b url("../img/background.png") repeat;
 }
+
 .header-container {
-    max-width: 1170px;
+    max-width: 1220px;
     margin: 0 auto;
 }
 
 .header-left {
-    padding-top: 30px;
+    padding-top: 25px;
+    padding-left: 40px;
+    float: left;
 }
 
 .header-right {
     padding-top: 15px;
+    padding-right: 40px;
+    float: right;
+}
+
+@media (max-width: 500px) {
+    .header-right {
+        float: left;
+        padding-left: 40px;
+    }
 }
 
 header i {
