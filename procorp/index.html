@@ -20,84 +20,50 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<header>
-    <img src="img/logo.png" alt="logo">
+
+<!--
+<header class="header-container">
+    <div class="header-left pull-left">
+        <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="header-right pull-right">
+        <p><i class="glyphicon glyphicon-phone-alt"></i>&nbsp;1-800-5555-2004</p>
+        <p><i class="fa fa-envelope"></i>&nbsp;contact@procorp.com</p>
+        <p><i class="glyphicon glyphicon-shopping-cart"></i>&nbsp;0 items in your cart</p>
+    </div>
 </header>
+-->
+
+<nav class="navbar navbar-default topnavbar">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Company</a></li>
+            <li><a href="#">Why us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search ...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                    </span>
+            </div>
+        </form>
+    </div>
+</nav>
+
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="img/1.jpg" alt="iphone image">
-                    </div>
-                    <div class="item">
-                        <img src="img/2.jpg" alt="iphone image">
-                    </div>
-                    <div class="item">
-                        <img src="img/3.jpg" alt="iphone image">
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-            <form role="form"></form>
-            <div class="form-group">
-                <h2>register</h2>
-                <p>Do you want to become a part of community?</p>
-                <div class="form-group has-feedback has-feedback-left">
-                    <label class="sr-only" for="name-reg">Full name</label>
-                    <input id="name-reg" class="form-control input-custom" type="text" placeholder="Full name">
-                    <i class="glyphicon glyphicon-user form-control-feedback"></i>
-                </div>
-                <div class="form-group has-feedback has-feedback-left">
-                    <label class="sr-only" for="mail-reg">Full name</label>
-                    <input id="mail-reg" class="form-control input-custom" type="email" placeholder="E-mail">
-                    <i class="fa fa-envelope form-control-feedback"></i>
-                </div>
-                <div class="form-inline">
-                    <div class="checkbox">
-                        <label><input type="checkbox">&nbsp;Newsletter?</label><br><span>Your email will not be abused.</span>
-                    </div>
-                    <button type="submit" class="btn btn-custom pull-right">Register</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
-            <form role="form"></form>
-            <div class="form-group">
-                <h2>login</h2>
-                <p>Already registered?</p>
-                <div class="form-group has-feedback has-feedback-left">
-                    <label class="sr-only" for="mail-login">Email</label>
-                    <input id="mail-login" class="form-control input-custom" type="email" placeholder="E-mail">
-                    <i class="fa fa-envelope form-control-feedback"></i>
-                </div>
-                <div class="form-group has-feedback has-feedback-left">
-                    <label class="sr-only" for="pass-login">Password</label>
-                    <input id="pass-login" class="form-control input-custom" type="password" placeholder="Password">
-                    <i class="fa fa-lock form-control-feedback"></i>
-                </div>
-                <div class="form-inline">
-                    <div class="checkbox">
-                        <label><input type="checkbox">&nbsp;Remember me</label><br><a href="#">Forgot password?</a>
-                    </div>
-                    <button type="submit" class="btn btn-custom pull-right">Login</button>
-                </div>
-            </div>
+            test
         </div>
     </div>
 </div>
 <footer class="footer">
-    <p>2016 SmartCentre</p>
+    <p>2016 ProCorp</p>
 </footer>
 </body>
 </html>
