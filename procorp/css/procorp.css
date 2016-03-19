@@ -54,3 +54,15 @@ body {
 header i {
     color: #00aeef;
 }
+
+.jumbotron-left, .jumbotron-right {
+    float: left;
+}
+
+.jumbotron h1, h2 {
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #404040;
+}
