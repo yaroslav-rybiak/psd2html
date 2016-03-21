@@ -55,12 +55,49 @@ header i {
     color: #00aeef;
 }
 
+.navbar {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+
+.jumbotron {
+    background: none !important;
+}
+
 .jumbotron-left, .jumbotron-right {
     float: left;
 }
 
 .jumbotron h1, h2 {
     text-transform: uppercase;
+    font-weight: 700;
+}
+
+.jumbotron h1 {
+    color: #ea0099;
+    font-size: 72px;
+    margin-top: -15px;
+}
+
+.btn-custom, .btn-custom:hover, .btn-custom:active, .btn-custom:focus {
+    margin-left: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #464d57;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00aced), to(#006991));
+    background-image: -webkit-linear-gradient(top, #00aced, #006991);
+    background-image: -moz-linear-gradient(top, #00aced, #006991);
+    background-image: -ms-linear-gradient(top, #00aced, #006991);
+    background-image: -o-linear-gradient(top, #00aced, #006991);
+    background-image: linear-gradient(to bottom, #00aced, #006991);
+    box-shadow: 0 4px 2px -2px gray;
+    border: 1px solid #006991;
+    border-radius: 5px;
+    outline: 0;
+    outline: none;
 }
 
 .footer {
