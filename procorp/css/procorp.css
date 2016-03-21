@@ -73,14 +73,17 @@ header i {
     font-weight: 700;
 }
 
+.jumbotron h2 {
+    font-size: 48px;
+}
+
 .jumbotron h1 {
     color: #ea0099;
-    font-size: 72px;
-    margin-top: -15px;
+    font-size: 120px;
+    margin-top: -30px;
 }
 
 .btn-custom, .btn-custom:hover, .btn-custom:active, .btn-custom:focus {
-    margin-left: 25px;
     width: 200px;
     height: 50px;
     font-size: 26px;
@@ -98,6 +101,12 @@ header i {
     border-radius: 5px;
     outline: 0;
     outline: none;
+}
+
+.highlighted {
+    color: #00aeef;
+    border-bottom: 3px solid #00aeef;
+    font-weight: 400;
 }
 
 .footer {
