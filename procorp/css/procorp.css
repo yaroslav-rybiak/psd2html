@@ -150,3 +150,23 @@ cite {
     background-color: #404040;
     padding-top: 10px;
 }
+
+.footer ul
+{
+    list-style-type: none;
+}
+
+.footer a {
+    color: #b7b7b7;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #00aeef;
+    text-decoration: none;
+}
+
+.footer li:before {
+    content: "◾\00a0";
+    color: #00aeef;
+}
