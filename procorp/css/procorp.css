@@ -58,6 +58,29 @@ header i {
 .navbar {
     border-radius: 0 !important;
     -moz-border-radius: 0 !important;
+    background-color: #404040;
+    border: 4px solid #404040;
+    box-shadow: 0 0 3px #000 inset;
+}
+
+.custom-search {
+    border-radius: 0 !important;
+    box-shadow: inset 0 0 2px #656a71;
+    border: 1px solid #3c3c3c;
+    background-color: #3c3c3c;
+}
+
+.custom-search:focus {
+    border: 1px solid #656a71;
+    box-shadow: inset 0 0 2px #656a71;
+}
+
+.custom-magnifier, .custom-magnifier:hover, .custom-magnifier:active, .custom-magnifier:focus {
+    border-radius: 0 !important;
+    border: 1px solid #00a0dc;
+    box-shadow: inset 0 0 2px #00a0dc;
+    background-color: #00a0dc;
+    color: #fff;
 }
 
 .jumbotron {
